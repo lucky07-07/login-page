@@ -96,6 +96,7 @@ body {
 
 .register p a {
     font-weight: 600;
+     text-decoration: none;
 }
 
 .button:hover {
