@@ -25,7 +25,7 @@
             </div>
             <div class="usertext">
                 <input type="password" placeholder="Password" required>
-                <i class='bx bxs-lock-alt' ></i>
+                <i class='bx bx-lock-alt' ></i>
             </div>
 
             <div class="checkbox">
