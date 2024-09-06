@@ -17,7 +17,7 @@
             <h1 class="text-center">Register</h1>
             <div class="usertext">
                 <input type="text" placeholder="Name" required>
-                <i class='bx bxs-lock-alt' ></i>
+                <i class='bx bx-user' ></i>
             </div>
             <div class="usertext">
                 <input type="text" placeholder="Email" required>
@@ -25,7 +25,7 @@
             </div>
             <div class="usertext">
                 <input type="password" placeholder="Password" required>
-                <i class='bx bx-user' ></i>
+                <i class='bx bxs-lock-alt' ></i>
             </div>
 
             <div class="checkbox">
