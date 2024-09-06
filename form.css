@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: url('loginbg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.main {
+    width: 400px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    color: white;
+    padding: 30px 40px;
+    border-radius: 15px;
+}
+
+.main h1 {
+    font-size: 35px;
+}
+
+.main .usertext {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+}
+
+.main .usertext input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 15px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.main input::placeholder {
+    color: white;
+}
+
+
+.main i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.main .checkbox {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+
+.checkbox a:hover {
+    text-decoration: underline;
+    transform: scale(1.02);
+}
+
+
+.main .button {
+    height: 45px;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 15px;
+    color: #333;
+    font-weight: 600;
+}
+
+.main .register {
+    font-size: 14.5px;
+    margin: 20px 0 15px;
+}
+
+
+.register p a {
+    font-weight: 600;
+}
+
+.button:hover {
+    transform: scale(1.01);
+}
+
+.register p a:hover {
+    text-decoration: underline;
+    transform: scale(1.02);
+}
